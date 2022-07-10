@@ -1,0 +1,4 @@
+<resources>
+	<string name="pokemon_name_text">Pokemon name</string>
+	<string name="error_message">Ошибка загрузки списка покемонов,\nпроверьте соединение с интернетом</string>
+</resources>

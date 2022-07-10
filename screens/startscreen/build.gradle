@@ -1,0 +1,32 @@
+apply plugin: Plugins.ANDROID_LIBRARY
+apply plugin: Plugins.KOTLIN_ANDROID
+
+apply from: "$rootDir/gradle_config/androidLibrary.gradle"
+dependencies {
+	implementation Dependencies.KOTLIN_STANDARD_LIBRARY
+	implementation Dependencies.CORE
+	implementation Dependencies.APP_COMPAT
+	implementation Dependencies.MATERIAL
+	implementation Dependencies.FRAGMENT
+	implementation Dependencies.CONSTRAINT_LAYOUT
+	implementation Dependencies.CICERONE
+	implementation Dependencies.KOIN_CORE
+	implementation Dependencies.KOIN_ANDROID
+	implementation Dependencies.RETROFIT
+	implementation Dependencies.GSON
+	implementation Dependencies.GSON_CONVERTER
+	implementation Dependencies.COROUTINE_CORE
+	implementation Dependencies.COROUTINE_ANDROID
+	implementation Dependencies.PICASSO
+
+	implementation project(':network')
+	implementation project(':additional')
+
+	testImplementation Dependencies.JUNIT
+	testImplementation Dependencies.CORE_TESTING
+	testImplementation Dependencies.MOCKITO_CORE
+	testImplementation Dependencies.MOCKITO_KOTLIN
+	testImplementation Dependencies.MOCKITO_INLINE
+	testImplementation Dependencies.COROUTINE_TEST
+	testImplementation project(':testutils')
+}
