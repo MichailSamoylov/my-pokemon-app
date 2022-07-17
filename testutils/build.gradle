@@ -1,0 +1,10 @@
+apply plugin: Plugins.ANDROID_LIBRARY
+apply plugin: Plugins.KOTLIN_ANDROID
+
+apply from: "$rootDir/gradle_config/androidLibrary.gradle"
+dependencies {
+	implementation Dependencies.COROUTINE_CORE
+	implementation Dependencies.COROUTINE_ANDROID
+	implementation Dependencies.COROUTINE_TEST
+	implementation Dependencies.JUNIT
+}
