@@ -1,6 +1,7 @@
 package com.app.mypokemonapp
 
 import android.app.Application
+import com.app.myapplication.screens.pokemonpage.di.pokemonPageModule
 import com.app.mypokemonapp.di.appModule
 import com.app.mypokemonapp.di.navigateModule
 import com.app.mypokemonapp.screens.startscreen.di.startScreenModule
@@ -20,7 +21,8 @@ class App : Application() {
 			modules(
 				appModule,
 				navigateModule,
-				startScreenModule
+				startScreenModule,
+				pokemonPageModule
 			)
 		}
 	}
