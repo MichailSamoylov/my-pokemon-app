@@ -1,5 +1,7 @@
 include ':app'
-include ':screens'
-include ':screens:startscreen'
 include ':network'
 include ':additional'
+
+include ':screens:startscreen'
+include ':screens:pokemonpage'
+include ':testutils'

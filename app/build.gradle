@@ -16,4 +16,5 @@ dependencies {
 	implementation Dependencies.RETROFIT
 
 	implementation project(":screens:startscreen")
+	implementation project(":screens:pokemonpage")
 }

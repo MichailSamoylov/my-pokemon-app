@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/Android Rep/my-pokemon-app/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Android/Android Rep/my-pokemon-app/screens/pokemonpage/src/main/res/layout/fragment_pokemon_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Android/Android Rep/my-pokemon-app/screens/startscreen/src/main/res/layout/fragment_blank.xml" value="0.20520833333333333" />
         <entry key="..\:/Android/Android Rep/my-pokemon-app/screens/startscreen/src/main/res/layout/fragment_start.xml" value="0.20520833333333333" />
         <entry key="..\:/Android/Android Rep/my-pokemon-app/screens/startscreen/src/main/res/layout/list_item_view.xml" value="0.36666666666666664" />

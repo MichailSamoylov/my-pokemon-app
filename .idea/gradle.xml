@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/network" />
             <option value="$PROJECT_DIR$/screens" />
+            <option value="$PROJECT_DIR$/screens/pokemonpage" />
             <option value="$PROJECT_DIR$/screens/startscreen" />
             <option value="$PROJECT_DIR$/testutils" />
           </set>
